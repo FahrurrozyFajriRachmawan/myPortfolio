@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="frontend/libraries/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="frontend/libraries/bootstrap-icons/bootstrap-icons.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="frontend/styles/main.css">
+
+  <!-- Font Awesome Google -->
+  <link rel="stylesheet" href="frontend/libraries/fontawesome-free-5.15.4-web/css/all.css">
+
+
+  <title>FFR</title>
+</head>
+
+<!-- Btn back to top -->
+<div id='Back-to-top'>
+  <img alt='Scroll to top'
+    src='https://lh6.googleusercontent.com/-18ivhAksPaU/Uqfnr_rXbbI/AAAAAAAAIzw/klENnMeM290/s128/backtotop.png' />
+</div>
+<!-- End btn back to top -->
+
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparant">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#sectionAbout">About</a>
+          <a class="nav-link" href="#sectionPortfolio">Portfolio</a>
+          <a class="nav-link" href="#sectionContactUs">Services</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col col-12 col-lg-6 col-md-6 col-sm-12 header-img">
+          <img src="frontend/img/profile.jpg" alt="">
+        </div>
+        <div class="col col-12 col-lg-6 col-md-6 col-sm-12 header-caption">
+          <h1>
+            Hi, I'm <span>Fahrurrozy</span> Fajri Rachmawan
+          </h1>
+          <p>
+            Frontend Web Developer
+          </p>
+          <a href="frontend/libraries/cv/CV.pdf">
+            <button type="button" class="btn btn-header">Download CV</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Main -->
+  <main>
+    <section class="section-skills" id="sectionSkills">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col col-12 col-lg-3 col-md-3 col-sm-12 icon-skills">
+            <h1>
+              My Skils
+            </h1>
+          </div>
+          <div class="col col-12 col-lg-9 col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3 icon-skills">
+                <i class="fab fa-html5"></i>
+                <span>
+                  HTML
+                </span>
+              </div>
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3 icon-skills">
+                <i class="fab fa-bootstrap"></i>
+                <span>
+                  Bootstrap
+                </span>
+              </div>
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3 icon-skills">
+                <i class="fab fa-sass"></i>
+                <span>
+                  SASS
+                </span>
+              </div>
+              <div class="col-12 col-lg-3 col-md-3 col-sm-3 icon-skills">
+                <i class="fab fa-js-square"></i>
+                <span>
+                  JavaScript
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="sectionAbout">
+      <div class="container text-center">
+        <h1>
+          About Me
+        </h1>
+        <div class="row">
+          <p>
+            Perkenalkan nama saya <span>Fahrurrozy Fajri Rachmawan</span>. Lahir di tangerang pada tahun 1997. Saya
+            memiliki
+            pengalaman Frontend Web Developer selama 1 tahun menggunakan Framework
+            <span>Bootstrap</span> dan <span>SCSS/SASS</span>, tools yang saya gunakan adalah <span>Visual Studio
+              Code</span>
+            dan <span>Figma</span>. Pendidikan terakhir saya Teknik Informatika (S1) di Universitas Muhammadiyah
+            Tangerang.
+            Saya mampu bekerja secara
+            tim maupun personal dengan baik dan mempunyai semangat tinggi untuk mempelajari hal baru.
+          </p>
+        </div>
+        <button type="button" class="btn btn-about" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Hire Me
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Hire Me</h5>
+              </div>
+              <div class="modal-body">
+                Send a message about a work opportunity
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-about" data-bs-dismiss="modal">Cancel</button>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fahrurrozirahmawan@gmail.com"
+                  class="btn btn-confirm">
+                  Confirm
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-portfolio" id="sectionPortfolio">
+      <div class="container text-center">
+        <h1>
+          My Portfolio
+        </h1>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-4">
+            <div class="card mb-4">
+              <img src="frontend/img/NomadsTrip.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nomads</h5>
+                <p class="card-text">
+                  Landing Page dengan Bootstrap 4 dan SCSS
+                </p>
+                <a href="https://nomadstrip.netlify.app/" class="btn btn-portfolio">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+            <div class="card mb-4">
+              <img src="frontend/img/blackcampaigncoffee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Campaign Coffee</h5>
+                <p class="card-text">
+                  Landing Page dengan Bootstrap 4 dan SCSS
+                </p>
+                <a href="https://blackcampaigncoffee.netlify.app/" class="btn btn-portfolio">View Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-4">
+            <div class="card mb-4">
+              <img src="frontend/img/avignam.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Avignam Bina Putra</h5>
+                <p class="card-text">
+                  Company profile dengan Bootstrap 4 dan SCSS
+                </p>
+                <a href="http://avignambinaputra.com/" class="btn btn-portfolio">View Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-services" id="sectionServices">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-4 services-title">
+            <h1>
+              What I do best
+            </h1>
+          </div>
+          <div class="col-12 col-lg-8 col-md-8 services-caption">
+            <p>
+              • Slicing Desain ke HTML
+            </p>
+            <p>
+              • Membangun Website dengan Framework SCSS dan Bootstrap
+            </p>
+            <p>
+              • Membuat desain web kompatibel untuk dilihat dari smartphone (Responsif)
+            </p>
+            <p>
+              • Bekerja sama dengan back end developer untuk melakukan coding dan troubleshooting
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact-us" id="sectionContactUs">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col col-12 col-lg-12">
+            <a href="https://github.com/FahrurrozyFajriRachmawan" class="btn btn-github">
+              <i class="fab fa-github"></i>
+              <span>
+                Github
+              </span>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=fahrurrozirahmawan@gmail.com"
+              class="btn btn-gmail">
+              <i class="far fa-envelope"></i>
+              <span>
+                Gmail
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End Main -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="card-footer text-muted text-center">
+      2021 © Fahrurrozy Fajri Rachmawan • Made In Tangerang, Indonesia
+    </div>
+  </footer>
+  <!--End Footer -->
+
+  <!-- Jquery -->
+  <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootsrap JS -->
+  <script src="frontend/libraries/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+
+  <!-- My JS -->
+  <script src="frontend/scripts/main.js"></script>
+</body>
+
+</html>
