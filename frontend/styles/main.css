@@ -335,6 +335,7 @@ body {
 }
 
 .section-services .services-caption p {
+  font-size: 16px;
   padding: 10px;
   letter-spacing: 1px;
   font-weight: 500;
@@ -343,9 +344,10 @@ body {
 
 @media (max-width: 767px) {
   .section-services {
-    padding: 100px 50px;
+    padding: 80px 50px;
   }
   .section-services .services-title h1 {
+    color: #657DC4;
     padding: 0 0 18px 0;
     font-size: 26px;
   }
@@ -356,6 +358,14 @@ body {
 
 .section-contact-us {
   padding: 0 0 100px 0;
+}
+
+.section-contact-us h1 {
+  font-size: 14px;
+  padding: 0 0 30px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #657DC4;
 }
 
 .section-contact-us .btn-github {
