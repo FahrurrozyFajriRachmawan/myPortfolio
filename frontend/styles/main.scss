@@ -180,6 +180,7 @@ body {
     }
 
     span {
+      font-weight: 300 !important;
       font-size: 16px;
       color: #949494;
       letter-spacing: 1px;
@@ -299,6 +300,7 @@ body {
     }
 
     .card-title {
+      font-size: 20px;
       font-weight: 600;
     }
 
@@ -331,15 +333,18 @@ body {
       img {
         height: 150px;
       }
+
+      .card-title {
+        font-size: 16px;
+      }
     }
   }
 
   // Small devices (phones, less than 767px)
   @media (max-width: 767px) {
     .card {
-      img {
-        height: 200px;
-      }
+      margin: auto;
+      width: 80%;
     }
   }
 }
@@ -361,7 +366,7 @@ body {
     p {
       padding: 10px;
       letter-spacing: 1px;
-      font-weight: 600;
+      font-weight: 300;
       color: #949494;
     }
   }
