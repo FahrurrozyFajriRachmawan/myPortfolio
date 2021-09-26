@@ -157,7 +157,7 @@ body {
     padding: 0;
   }
   .section-skills span {
-    font-weight: 300 !important;
+    font-weight: 500 !important;
     font-size: 16px;
     color: #949494;
     letter-spacing: 1px;
@@ -177,6 +177,7 @@ body {
 }
 
 .section-about p {
+  font-weight: 500;
   color: #949494;
   font-size: 16px;
 }
@@ -336,7 +337,7 @@ body {
 .section-services .services-caption p {
   padding: 10px;
   letter-spacing: 1px;
-  font-weight: 300;
+  font-weight: 500;
   color: #949494;
 }
 
